@@ -1,0 +1,18 @@
+.sectfooter {
+  max-width: 1300px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  height: 120px;
+}
+.sect-footer {
+  width: 100%;
+  background-size: cover;
+}
+.icons-ft {
+  padding: 0 15px;
+}

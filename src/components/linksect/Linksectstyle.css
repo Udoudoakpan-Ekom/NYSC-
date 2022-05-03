@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container-link {
+  /* display: flex; */
+
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  column-gap: 40px;
+}
+.certificate {
+  /* display: block; */
+  padding: 25px 20px 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 100px;
+  background-color: #fff;
+  color: var(--primary-ash);
+  text-align: center;
+  margin: 35px 0;
+  /* position: relative; */
+  /* gap: 40px; */
+}
+.cert-text {
+  padding-top: 31px;
+}
+.cert-ft,
+.cert-st {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.cert-text .cert-st {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 13px !important;
+  text-decoration: underline;
+}
+.img-arrow {
+  padding: 30px 0;
+}
+.arrow-margin {
+  /* position: absolute; */
+  margin: 20px;
+}

@@ -1,0 +1,16 @@
+.img-abs {
+  height: 294px;
+  width: 260px;
+}
+.shadow {
+  height: 21px;
+  width: 260px;
+  filter: blur(9px);
+  border-radius: 50px;
+  background-color: #c4c4c4;
+}
+.absolute-div {
+  position: absolute;
+  bottom: -15%;
+  left: 45%;
+}

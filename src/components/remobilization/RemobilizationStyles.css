@@ -1,0 +1,71 @@
+.remob-main {
+  display: flex;
+  /* background: url(../..); */
+  justify-content: space-between;
+  max-width: 1255px;
+  margin: 175px auto 0;
+  padding: 34px 50px;
+  border: 2px dashed #3d4a3d;
+}
+.remob-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.remob-main .remob-main-text,
+.remob-sub-text,
+.apply {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #fff;
+}
+.remob-sub-text {
+  text-decoration: underline;
+  font-size: 13px !important;
+}
+
+.remob-main .apply {
+  background: rgba(32, 48, 35, 1);
+  padding: 16px 11px;
+  width: 240px;
+}
+/* .remob-main{
+
+} */
+.remobinformation {
+  display: flex;
+  max-width: 1050px;
+  margin: 133px auto 180px;
+  gap: 20px;
+}
+.remobinformation-sub {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.dob {
+  display: flex;
+  gap: 15px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+/* .gap {
+  .remobinformation-sub 
+  background: #fff;
+} */
+.dobtext {
+  display: table-cell;
+  color: var(--primary-light);
+  background-color: rgba(239, 255, 226, 1);
+  border-radius: 0 15px 15px 0;
+  width: 100%;
+  border-radius: 0px 40px 40px 0px;
+  border: 1px solid #f2f2f2;
+  vertical-align: middle;
+  padding: 40px 0;
+  margin: 0 auto;
+  text-align: center;
+  /* text-align: center;
+  align-items: center; */
+}
